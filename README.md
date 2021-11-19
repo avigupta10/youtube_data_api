@@ -27,7 +27,7 @@ params = {
         'order': 'date',
         'publishedAfter': <Any date>
     }
-
+ Response:
 {
   "kind": "youtube#searchListResponse",
   "etag": "WKjFtcCM2J4jkF_JwYmEjIWNALo",
@@ -87,6 +87,7 @@ Allow: GET, HEAD, OPTIONS
 Content-Type: application/json
 Vary: Accept
 
+Response:
 {
     "count": 5,
     "next": "http://127.0.0.1:8000/api/get-videos?page=2",
@@ -127,7 +128,7 @@ Query params:
 ```desc``` 
 ```title```
 ```
-response:
+Response:
 {
     "count": 2,
     "next": null,
