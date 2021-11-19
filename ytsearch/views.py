@@ -17,7 +17,7 @@ SEARCH_URL = 'https://www.googleapis.com/youtube/v3/search'
 VIDEOS_PUBLISHED_AFTER = '2021-11-10T11:49:10Z'
 
 
-@background()
+@background() # telling django-background-tasks that this function is one of the tasks to be completed in background.
 def store_details():
     """
     Storing all the data we get from YouTube Data API to Django Model
@@ -46,6 +46,7 @@ def store_details():
 @api_view(['GET'])
 def api_details(request):
     """
+     Basic API to show details of implemented API's
     :param request:
     :return:
     """
