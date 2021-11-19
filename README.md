@@ -190,19 +190,8 @@ python manage.py runserver
 ```
 
 ### Start Background Tasks
+Open a new terminal and head to the same path of you project and activate your virtual environment. Next , type in
 ```bash
 python manage.py process_tasks
 ```
-
-## [Install Node.js](https://nodejs.org/en/)
-
-## Install Node Modules
-
-First cd into the ```frontend``` folder.
-```bash
-cd frontend
-```
-Next install all dependicies.
-```bash
-npm i
-```
+Thats it you're done
