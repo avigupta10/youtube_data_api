@@ -156,7 +156,7 @@ Response:
 
 # ASYC BEHAVIOR
 
-#### Here i am using ```django-background-tasks``` to continuously send requests to YouTube API after every 10sec and store all the data to ```database```.
+#### Here i am using ```django-background-tasks``` to continuously send requests to YouTube Data API after every 10sec and store all the data in ```database```.
 
 
 ## Setup Instructions
