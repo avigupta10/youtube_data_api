@@ -153,9 +153,9 @@ response:
 
 ### A similar API is made with ```django-filter``` and can be accessed with ```/api/search?{QUERY}```
 
-#### ASYC BEHAVIOR
+# ASYC BEHAVIOR
 
-# Here
+#### Here i am using ```django-background-tasks``` to continuously send requests to YouTube API after every 10sec and store all the data to ```database```.
 
 
 ## Setup Instructions
