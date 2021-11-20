@@ -163,7 +163,7 @@ Response:
 
 ### Clone this repo
 
-`https://github.com/avigupta10/youtube_data_api.git`
+`git clone https://github.com/avigupta10/youtube_data_api.git`
 
 ### Create Virtual Environment and Install Required Python Modules
 `cd youtube_data_api`
