@@ -1,6 +1,6 @@
 # youtube_data_api
 
-A Django Rest Framework Application 
+A Django-rest-framework Application 
 
 ## Application 
 ### There is mainly 1 resource:
